@@ -1,0 +1,115 @@
+/* page.module.css */
+
+/* Estilo para el contenedor principal de la aplicación */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título principal */
+.appContainer h1 {
+  font-size: 1.8em;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Estilo para el selector de películas */
+.selectorPeliculas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  width: 110%;
+  max-width: 600px;
+}
+
+.selectorPeliculas select {
+  flex: 2;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+}
+
+.selectorPeliculas button {
+  flex: 1;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 400px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.selectorPeliculas button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para la lista de compras */
+.listaCompra {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1px;
+}
+
+.peliculaItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.peliculaItem h3 {
+  margin: 0;
+  flex: 3;
+}
+
+.peliculaItem span {
+  flex: 1;
+  text-align: right;
+}
+
+.peliculaItem input {
+  width: 40px;
+  height: 27px;
+  margin: 0 15px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  text-align: center;
+}
+
+.peliculaItem button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 400px;
+  cursor: pointer;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.peliculaItem button:hover {
+  background-color: #d32f2f;
+}
+
+/* Estilo para el total */
+.total {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: 6o0px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #050505;
+}

@@ -1,0 +1,14 @@
+
+[
+    { "nombre": "Super Mario Bros. La película", "precio": 19.98 },
+    { "nombre": "Avatar", "precio": 24.99 },
+    { "nombre": "El Gladiador", "precio": 14.99 },
+    { "nombre": "Matrix", "precio": 18.99 },
+    { "nombre": "Interstellar", "precio": 22.99 },
+    { "nombre": "Joker", "precio": 16.99 },
+    { "nombre": "Avengers: Endgame", "precio": 29.99 },
+    { "nombre": "¿Qué pasó ayer?", "precio": 13.99 },
+    { "nombre": "Titanic", "precio": 19.99 },
+    { "nombre": "El Hombre Araña", "precio": 25.99 }
+  ]
+  
